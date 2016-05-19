@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ConvertSpeedsSOAP:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="convertSpeed.war">
+      <element id="artifact" artifact-name="ConvertSpeedsSOAP:war exploded" />
+    </root>
+  </artifact>
+</component>
