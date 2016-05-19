@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.webservicex.ws</groupId>
+  <artifactId>SpeedConverterMVC</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>SpeedConverterMVC Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- JSF -->
+    <dependency>
+      <groupId>javax.faces</groupId>
+      <artifactId>jsf-api</artifactId>
+      <version>1.2_04-p01</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.faces</groupId>
+      <artifactId>jsf-impl</artifactId>
+      <a name="DDE_LINK2" id="DDE_LINK2"></a>                        <version>1.2_04-p01</version>
+    </dependency>
+    <dependency>
+      <groupId>org.icefaces</groupId>
+      <artifactId>icefaces-facelets</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+
+    <!-- ICEFaces -->
+    <dependency>
+      <groupId>org.icefaces</groupId>
+      <artifactId>icefaces</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.icefaces</groupId>
+      <artifactId>icefaces-comps</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>backport-util-concurrent</groupId>
+      <artifactId>backport-util-concurrent</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>SpeedConverterMVC</finalName>
+  </build>
+</project>
