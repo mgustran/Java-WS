@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:tns="http://xmlns.jcp.org/xml/ns/javaee">
 <tns:view>
-   <form target="_blank" action="http://www.webservicex.net/ConvertSpeed.asmx/ConvertSpeed" method="post">    <!--   Aqui esta el faaallo  OJO    -->
+
+   <form target="_blank" action="#{controller.Controller.class.convert()}" method="post">    <!--   Aqui esta el faaallo  OJO    -->
 
       <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
          <tr>
@@ -20,9 +21,9 @@
          <tr>
             <td class="frmText" style="color: #000000; font-weight: normal;">FromUnit:</td>
             <td><select name="FromUnit" class="frmInput" >
-               <option value="centimetersPersecond">centimetersPersecond</option>
-               <option value="metersPersecond">metersPersecond</option>
-               <option value="feetPersecond">feetPersecond</option>
+               <option value="#{SpeedUnit.CENTIMETERS_PERSECOND}">centimetersPersecond</option>
+               <option value="#{SpeedUnit.METERS_PERSECOND}">metersPersecond</option>
+               <option value="#{SpeedUnit.FEET_PERSECOND}">feetPersecond</option>
                <option value="feetPerminute">feetPerminute</option>
                <option value="milesPerhour">milesPerhour</option>
                <option value="kilometersPerhour">kilometersPerhour</option>
@@ -37,8 +38,8 @@
          <tr>
             <td class="frmText" style="color: #000000; font-weight: normal;">ToUnit:</td>
             <td><select name="ToUnit" class="frmInput" >
-               <option value="centimetersPersecond">centimetersPersecond</option>
-               <option value="metersPersecond">metersPersecond</option>
+               <option value="#{SpeedUnit.CENTIMETERS_PERSECOND}">centimetersPersecond</option>
+               <option value="#{SpeedUnit.METERS_PERSECOND}">metersPersecond</option>
                <option value="feetPersecond">feetPersecond</option>
                <option value="feetPerminute">feetPerminute</option>
                <option value="milesPerhour">milesPerhour</option>
