@@ -1,3 +1,4 @@
+import controller.Controller;
 import controller.ConvertSpeedsSoap;
 import model.SpeedUnit;
 import org.junit.Test;
@@ -61,4 +62,8 @@ public class ConvertSpeedTest {
         //  Imprimimos la respuesta
         System.out.println("T3 -> Resultado de la conversion de m/s  a  miles/h : " + torna);
     }
+
+//       IMPLEMENTAR ASSERTS   A TODOS LOS CASOS TEST
+
+
 }

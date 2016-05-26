@@ -1,69 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:tns="http://xmlns.jcp.org/xml/ns/javaee">
-<tns:view>
+      xmlns:tns="http://xmlns.jcp.org/xml/ns/javaee"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+>
 
-   <form target="_blank" action="#{controller.Controller.class.convert()}" method="post">    <!--   Aqui esta el faaallo  OJO    -->
+<f:view>
 
-      <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
-         <tr>
+   <form target="result" action= '#{controller.convert()}' method="post">    <!--   Aqui esta el faaallo  OJO    -->
+
+       <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
+           <tr>
             <td class="frmHeader" style="border-right: 2px solid white;">Parameter</td>
             <td class="frmHeader" >Value</td>
          </tr>
 
 
          <tr>
-            <td class="frmText" style="color: #000000; font-weight: normal;">speed:</td>
-            <td><input class="frmInput" type="text" size="50" name="speed"/></td>
+            <td class="frmText" style="color: #0000ff; font-weight: normal;">speed:</td>
+            <td><input value="#{controller.speed}" class="frmInput" type="text" size="50" name="speed"/></td>
          </tr>
 
-         <tr>
-            <td class="frmText" style="color: #000000; font-weight: normal;">FromUnit:</td>
-            <td><select name="FromUnit" class="frmInput" >
-               <option value="#{SpeedUnit.CENTIMETERS_PERSECOND}">centimetersPersecond</option>
-               <option value="#{SpeedUnit.METERS_PERSECOND}">metersPersecond</option>
-               <option value="#{SpeedUnit.FEET_PERSECOND}">feetPersecond</option>
-               <option value="feetPerminute">feetPerminute</option>
-               <option value="milesPerhour">milesPerhour</option>
-               <option value="kilometersPerhour">kilometersPerhour</option>
-               <option value="furlongsPermin">furlongsPermin</option>
-               <option value="knots">knots</option>
-               <option value="leaguesPerday">leaguesPerday</option>
-               <option value="Mach">Mach</option>
 
-            </select></td>
-         </tr>
+
+           <tr>
+               <td class="frmText" style="color: #0000ff; font-weight: normal;">FromUnit:</td>
+               <td><h:selectOneMenu  class="frmText" value="#{controller.fromUn}">
+                       <f:selectItems value="#{controller.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                   </h:selectOneMenu></td>
+           </tr>
+
+
 
          <tr>
-            <td class="frmText" style="color: #000000; font-weight: normal;">ToUnit:</td>
-            <td><select name="ToUnit" class="frmInput" >
-               <option value="#{SpeedUnit.CENTIMETERS_PERSECOND}">centimetersPersecond</option>
-               <option value="#{SpeedUnit.METERS_PERSECOND}">metersPersecond</option>
-               <option value="feetPersecond">feetPersecond</option>
-               <option value="feetPerminute">feetPerminute</option>
-               <option value="milesPerhour">milesPerhour</option>
-               <option value="kilometersPerhour">kilometersPerhour</option>
-               <option value="furlongsPermin">furlongsPermin</option>
-               <option value="knots">knots</option>
-               <option value="leaguesPerday">leaguesPerday</option>
-               <option value="Mach">Mach</option>
-
-            </select></td>
+            <td class="frmText" style="color: #0000ff; font-weight: normal;">ToUnit:</td>
+            <td><h:selectOneMenu  class="frmText" value="#{controller.toUn}">
+                   <f:selectItems value="#{controller.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                </h:selectOneMenu></td>
          </tr>
 
          <tr>
             <td></td>
-            <td align="right"> <input type="submit" value="Invoke" class="button"/></td>
+            <td align="right"> <input  type="submit" value="Invoke" class="button"/></td>
 
          </tr>
-      </table>
-      <tns:outputText id="response" value="#{controller.ConvertSpeedResponse.getConvertSpeedResult()}" size="20" />
-      <tns:commandButton id="submitButton1" value="Submit" action="#{controller.ConvertSpeedResponse.getConvertSpeedResult()}" >
-         <tns:actionListener type="actionListener" /> </tns:commandButton>
+
+      </table><h:outputText id="result" value="algo#{controller.outputSpeed}" style="font-weight : bold" />
+       div
+       <h:commandButton value="#{controller.outputSpeed} " action="#{controller.convert()}" />
+       <!--  <tns:commandButton id="submitButton1" value="Submit" action="#{convertSpeed.convert}" >
+            <tns:actionListener type="actionListener" /> </tns:commandButton>  -->
 
 
    </form>
 
-</tns:view>
+</f:view>
 </html>

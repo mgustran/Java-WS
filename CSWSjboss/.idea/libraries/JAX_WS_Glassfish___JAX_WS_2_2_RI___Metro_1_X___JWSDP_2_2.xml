@@ -13,16 +13,13 @@
       <root url="jar://$PROJECT_DIR$/lib/mail.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-xjc.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/management-api.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jaxws-tools.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/mimepull.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/saaj-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/policy.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/stax-ex.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/saaj-impl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/stax2-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/streambuffer.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/woodstox-core-asl.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jaxws-rt.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
