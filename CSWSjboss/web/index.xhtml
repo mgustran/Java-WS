@@ -9,7 +9,7 @@
 
 <f:view>
 
-   <form target="result" action= '#{controller.convert()}' method="post">    <!--   Aqui esta el faaallo  OJO    -->
+   <form action= "${pageContext.request.contextPath}result.xhtml" method="post">    <!--   Aqui esta el faaallo  OJO    -->
 
        <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
            <tr>
@@ -20,15 +20,15 @@
 
          <tr>
             <td class="frmText" style="color: #0000ff; font-weight: normal;">speed:</td>
-            <td><input value="#{controller.speed}" class="frmInput" type="text" size="50" name="speed"/></td>
+            <td><input value="#{SpeedBean.speed}" class="frmInput" type="text" size="50" name="speed"/></td>
          </tr>
 
 
 
            <tr>
                <td class="frmText" style="color: #0000ff; font-weight: normal;">FromUnit:</td>
-               <td><h:selectOneMenu  class="frmText" value="#{controller.fromUn}">
-                       <f:selectItems value="#{controller.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+               <td><h:selectOneMenu  class="frmText" value="#{FromUnitBean.fromUnit}">
+                       <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
                    </h:selectOneMenu></td>
            </tr>
 
@@ -36,8 +36,8 @@
 
          <tr>
             <td class="frmText" style="color: #0000ff; font-weight: normal;">ToUnit:</td>
-            <td><h:selectOneMenu  class="frmText" value="#{controller.toUn}">
-                   <f:selectItems value="#{controller.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+            <td><h:selectOneMenu  class="frmText" value="#{ToUnitBean.toUnit}">
+                   <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
                 </h:selectOneMenu></td>
          </tr>
 
@@ -47,11 +47,10 @@
 
          </tr>
 
-      </table><h:outputText id="result" value="algo#{controller.outputSpeed}" style="font-weight : bold" />
-       div
-       <h:commandButton value="#{controller.outputSpeed} " action="#{controller.convert()}" />
-       <!--  <tns:commandButton id="submitButton1" value="Submit" action="#{convertSpeed.convert}" >
-            <tns:actionListener type="actionListener" /> </tns:commandButton>  -->
+      </table>
+       <h:outputText id="result" value="algo" style="font-weight : bold" />
+
+
 
 
    </form>

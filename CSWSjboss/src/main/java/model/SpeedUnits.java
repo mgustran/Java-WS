@@ -18,6 +18,10 @@ public  class SpeedUnits {
     }
     public SpeedUnits(){}
 
+    public SpeedUnit[] getSUnitValues() {
+        return SpeedUnit.values();
+    }
+
     public String getSULabel() {
         return SULabel;
     }

@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class SpeedBean implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private Double speedBean;
+    private Double speedBean  ;
 
     public Double getSpeed() {
         return speedBean;
