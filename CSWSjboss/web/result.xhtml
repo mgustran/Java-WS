@@ -5,14 +5,18 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-<body>
+<h:body>
 	<p>Esta sera la pagina de resultado</p>
-</body>
+    <h:outputFormat value="result: {0}">
+        <f:param value="#{controller.outputSpeed}"/>
 
 
-<f:view>
-    <h:outputLabel rendered="true" value="algo#{controller.getOutputSpeed()}"/>
-</f:view>
-
+    </h:outputFormat>
+</h:body>
 
 </html>
+
+
+
+
+

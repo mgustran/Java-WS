@@ -2,7 +2,7 @@ package controller;
 
 import model.ServiceManager;
 import model.SpeedUnit;
-import sun.org.mozilla.javascript.internal.NativeJavaObject;
+
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
@@ -10,6 +10,7 @@ import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 
 
+import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -17,6 +18,7 @@ import java.io.Serializable;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -24,77 +26,84 @@ import java.util.Scanner;
  */
 
 @ManagedBean(name="controller")
-@SessionScoped
+@RequestScoped
 public class Controller implements Serializable{
     private static final long serialVersionUID = 1L;
 
-    @ManagedProperty(value="#{SpeedBean}")
-    private Double speedBean;
+
 
     //@ManagedProperty(value="#{}")
     private Double outputSpeed;
 
-    @ManagedProperty(value="#{FromUnitBean}")
+
+    private Double speedBean;
+
     private SpeedUnit fromUnitBean;
 
-
-
-    @ManagedProperty(value="#{ToUnitBean}")
     private SpeedUnit toUnitBean;
-
+//    SpeedBean speedBean = new SpeedBean();
+//
+//    FromUnitBean fromUnitBean = new FromUnitBean();
+//    ToUnitBean toUnitBean = new ToUnitBean();
     public Controller (){
     }
 
-    public Double convertSpeed(){
-        SpeedBean speedBean = new SpeedBean();
-        FromUnitBean fromUnitBean = new FromUnitBean();
-        ToUnitBean toUnitBean = new ToUnitBean();
-        ServiceManager serviceManager = new ServiceManager();
-        outputSpeed = serviceManager.getService().convertSpeed(speedBean.getSpeed(), fromUnitBean.getFromUnit(), toUnitBean.getToUnit() );
-        System.out.println(outputSpeed);
-        return outputSpeed;
-
-    }
-
-    public Double convertSpeedTest() {
-        SpeedBean speedBean = new SpeedBean();
-        FromUnitBean fromUnitBean = new FromUnitBean();
-        ToUnitBean toUnitBean = new ToUnitBean();
-        ServiceManager serviceManager = new ServiceManager();
-
-        speedBean.setSpeed(12.12);
-        fromUnitBean.setFromUnit(SpeedUnit.KNOTS);
-        toUnitBean.setToUnit(SpeedUnit.KILOMETERS_PERHOUR);
-
-
-        Double out = serviceManager.getService().convertSpeed(12.12, SpeedUnit.KNOTS, SpeedUnit.KILOMETERS_PERHOUR);
-        return out;
-
-    }
-
-
-//    public Double serviceInit (SpeedBean speedBean, FromUnitBean fromUnitBean, ToUnitBean toUnitBean) throws MalformedURLException {
-//        URL wsdlDocumentLocation = new URL("http://www.webservicex.net/ConvertSpeed.asmx?WSDL");
-//        String namespaceURI = "http://www.webserviceX.NET/";
-//        String servicePart = "ConvertSpeeds";
-//        String portName = "ConvertSpeedsSoap";
-//        QName serviceQN = new QName(namespaceURI, servicePart);
-//        QName portQN = new QName(namespaceURI, portName);
-//
-//
-//        //FromUnitBean fromUnitBean
-//
-//
-//        Service service = Service.create(wsdlDocumentLocation, serviceQN);
-//        ConvertSpeedsSoap convertSpeedsSoap = service.getPort(portQN, ConvertSpeedsSoap.class);
-//
-//
-//        Double outputSpeed = convertSpeedsSoap.convertSpeed(speedBean.getSpeed(), fromUnitBean.getFromUnit(), toUnitBean.getToUnit());
-//        Double expected = 22.444;  // Result: 22.44624
-//
-//
+//    public Double convertSpeed(SpeedBean speedBean, FromUnitBean fromUnitBean, ToUnitBean toUnitBean){
+//        speedBean.setSpeed(12.12);
+//        fromUnitBean.setFromUnit(SpeedUnit.KNOTS);
+//        toUnitBean.setToUnit(SpeedUnit.KILOMETERS_PERHOUR);
+//        System.out.println(speedBean.getSpeed());
+//        System.out.println(fromUnitBean.getFromUnit());
+//        ServiceManager serviceManager = new ServiceManager();
+//        outputSpeed = serviceManager.getService().convertSpeed(speedBean.getSpeed(), fromUnitBean.getFromUnit(), toUnitBean.getToUnit() );
+//        System.out.println(outputSpeed);
 //        return outputSpeed;
+
 //    }
+
+//    public Double convertSpeedTest() {
+//        SpeedBean speedBean = new SpeedBean();
+//        FromUnitBean fromUnitBean = new FromUnitBean();
+//        ToUnitBean toUnitBean = new ToUnitBean();
+//        ServiceManager serviceManager = new ServiceManager();
+//
+//        speedBean.setSpeed(12.12);
+//        fromUnitBean.setFromUnit(SpeedUnit.KNOTS);
+//        toUnitBean.setToUnit(SpeedUnit.KILOMETERS_PERHOUR);
+//
+//
+//        Double out = serviceManager.getService().convertSpeed(12.12, SpeedUnit.KNOTS, SpeedUnit.KILOMETERS_PERHOUR);
+//        return out;
+//
+//    }
+
+
+    public Double serviceInit () throws MalformedURLException {
+        URL wsdlDocumentLocation = new URL("http://www.webservicex.net/ConvertSpeed.asmx?WSDL");
+        String namespaceURI = "http://www.webserviceX.NET/";
+        String servicePart = "ConvertSpeeds";
+        String portName = "ConvertSpeedsSoap";
+        QName serviceQN = new QName(namespaceURI, servicePart);
+        QName portQN = new QName(namespaceURI, portName);
+
+        FacesContext fc = FacesContext.getCurrentInstance();
+        Map<String,String> params = fc.getExternalContext().getRequestParameterMap();
+        String speed = params.get("speed");
+        Double convertedSpeed = Double.parseDouble(speed);
+
+        //FromUnitBean fromUnitBean
+
+
+        Service service = Service.create(wsdlDocumentLocation, serviceQN);
+        ConvertSpeedsSoap convertSpeedsSoap = service.getPort(portQN, ConvertSpeedsSoap.class);
+
+
+        Double outputSpeed = convertSpeedsSoap.convertSpeed(convertedSpeed, fromUnitBean, toUnitBean);
+        Double expected = 22.444;  // Result: 22.44624
+
+
+        return outputSpeed;
+    }
 
 
 
@@ -111,19 +120,17 @@ public class Controller implements Serializable{
     }
 
 
+    public void setSpeedBean(Double speedBean) {
+        this.speedBean = speedBean;
+    }
 
     public Double getOutputSpeed() {
         return outputSpeed;
     }
 
-
-
-
-
-
-
-
-
+    public Double getSpeedBean() {
+        return speedBean;
+    }
 
     public SpeedUnit getFromUn() {return fromUnitBean;    }
 

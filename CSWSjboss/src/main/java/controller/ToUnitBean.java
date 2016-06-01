@@ -15,7 +15,7 @@ import java.io.Serializable;
 public class ToUnitBean implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private SpeedUnit toUnitBean;
+    private SpeedUnit toUnitBean = SpeedUnit.KILOMETERS_PERHOUR;
 
     public SpeedUnit getToUnit() {
         return toUnitBean;
@@ -24,12 +24,12 @@ public class ToUnitBean implements Serializable {
     public void setToUnit(SpeedUnit toUnitBean) {
         this.toUnitBean = toUnitBean;
     }
-    public SelectItem[] getSpeedUnitValues() {
-        SelectItem[] listaSpeedUnits = new SelectItem[SpeedUnit.values().length];
-        int i = 0;
-        for (SpeedUnit g : SpeedUnit.values()) {
-            listaSpeedUnits[i++] = new SelectItem(g, g.value());
-        }
-        return listaSpeedUnits;
-    }
+//    public SelectItem[] getSpeedUnitValues() {
+//        SelectItem[] listaSpeedUnits = new SelectItem[SpeedUnit.values().length];
+//        int i = 0;
+//        for (SpeedUnit g : SpeedUnit.values()) {
+//            listaSpeedUnits[i++] = new SelectItem(g, g.value());
+//        }
+//        return listaSpeedUnits;
+//    }
 }

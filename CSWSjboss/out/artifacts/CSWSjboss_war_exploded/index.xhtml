@@ -7,9 +7,12 @@
       xmlns:f="http://java.sun.com/jsf/core"
 >
 
-<f:view>
+<h:body>
 
-   <form action= "${pageContext.request.contextPath}result.xhtml" method="post">    <!--   Aqui esta el faaallo  OJO    -->
+
+
+
+    <h:form action="result" id="miform">
 
        <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
            <tr>
@@ -20,14 +23,14 @@
 
          <tr>
             <td class="frmText" style="color: #0000ff; font-weight: normal;">speed:</td>
-            <td><input value="#{SpeedBean.speed}" class="frmInput" type="text" size="50" name="speed"/></td>
+            <td><input value="#{controller.speedBean}" class="frmInput" type="text" size="50" name="speed"/></td>
          </tr>
 
 
 
            <tr>
                <td class="frmText" style="color: #0000ff; font-weight: normal;">FromUnit:</td>
-               <td><h:selectOneMenu  class="frmText" value="#{FromUnitBean.fromUnit}">
+               <td><h:selectOneMenu  class="frmText" value="#{controller.fromUn}">
                        <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
                    </h:selectOneMenu></td>
            </tr>
@@ -36,7 +39,7 @@
 
          <tr>
             <td class="frmText" style="color: #0000ff; font-weight: normal;">ToUnit:</td>
-            <td><h:selectOneMenu  class="frmText" value="#{ToUnitBean.toUnit}">
+            <td><h:selectOneMenu  class="frmText" value="#{controller.toUn}">
                    <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
                 </h:selectOneMenu></td>
          </tr>
@@ -51,9 +54,16 @@
        <h:outputText id="result" value="algo" style="font-weight : bold" />
 
 
+        <h:commandButton id="submitButton"
+                         value="Submit - US" action="#{controller.serviceInit}">
+
+            <f:param name="speed" value="#{controller.speedBean}" />
+
+        </h:commandButton>
 
 
-   </form>
 
-</f:view>
+    </h:form>
+</h:body>
+
 </html>

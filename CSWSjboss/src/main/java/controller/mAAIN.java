@@ -45,8 +45,24 @@ public class mAAIN {
 //    //   COMMENT CLOSE
 //
 
+//        SpeedBean speedBean = new SpeedBean();
+//        FromUnitBean fromUnitBean = new FromUnitBean();
+//        ToUnitBean toUnitBean = new ToUnitBean();
+
+
         Controller controller = new Controller();
-        controller.convertSpeedTest();
+
+//        speedBean.setSpeed(12.12);
+//        fromUnitBean.setFromUnit(SpeedUnit.KNOTS);
+//        toUnitBean.setToUnit(SpeedUnit.KILOMETERS_PERHOUR);
+
+//        controller.setSpeedBean(speedBean);
+//        controller.setFromUn(fromUnitBean);
+//        controller.setToUn(toUnitBean);
+//        //controller.convertSpeed(12.12, SpeedUnit.KNOTS, SpeedUnit.KILOMETERS_PERHOUR);
+//        Double outcom = controller.serviceInit(12.12,SpeedUnit.KNOTS,SpeedUnit.KILOMETERS_PERHOUR);
+//        System.out.println(outcom);
+
     }
 }
 

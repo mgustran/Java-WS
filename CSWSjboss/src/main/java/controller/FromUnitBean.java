@@ -16,7 +16,7 @@ import java.io.Serializable;
 public class FromUnitBean implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private SpeedUnit fromUnitBean ;
+    private SpeedUnit fromUnitBean = SpeedUnit.KNOTS ;
 
     public SpeedUnit getFromUnit() {
         return fromUnitBean;
