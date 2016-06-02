@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tns="http://xmlns.jcp.org/xml/ns/javaee"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+>
+
+<h:body>
+
+
+<h1>JSF+MVC SpeedConverter</h1>
+
+    <h:form  id="miform">
+
+       <table cellspacing="0" cellpadding="4" frame="box"  rules="none" style="border-collapse: collapse;">
+           <tr>
+            <td class="frmHeader" style="border-right: 2px solid white;">Parameter</td>
+            <td class="frmHeader" >Value</td>
+         </tr>
+
+
+         <tr>
+            <td class="frmText" style="color: #0000ff; font-weight: normal;">speed:</td>
+            <td><h:inputText value="#{controller.speed}" class="frmInput"  size="50" name="speed"/></td>
+         </tr>
+
+
+
+           <tr>
+               <td class="frmText" style="color: #0000ff; font-weight: normal;">FromUnit:</td>
+               <td><h:selectOneMenu  class="frmText" value="#{controller.fromUn}">
+                       <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                   </h:selectOneMenu></td>
+           </tr>
+
+
+
+         <tr>
+            <td class="frmText" style="color: #0000ff; font-weight: normal;">ToUnit:</td>
+            <td><h:selectOneMenu  class="frmText" value="#{controller.toUn}">
+                   <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                </h:selectOneMenu></td>
+         </tr>
+
+         <tr>
+            <td></td>
+            <td align="right"> <input  type="submit" value="Invoke" class="button"/></td>
+
+         </tr>
+
+      </table>
+       <h:outputLabel id="result2" value="result should appear here: #{controller.outputSpee}" style="font-weight : bold" />
+         <br/>
+        <h:commandButton id="submitButton"
+                         value="Submit Parameters" action="#{controller.serviceInit}">
+
+            <f:param name="speed" value="#{controller.speed}" />
+
+        </h:commandButton>
+
+
+
+    </h:form>
+</h:body>
+
+</html>
