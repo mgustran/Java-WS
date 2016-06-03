@@ -26,4 +26,5 @@ public interface EquipoFacade {
 	public void quitar(Jugador jugador);
 	
 	public void quitar(Entrenador entrenador);
+	
 }
