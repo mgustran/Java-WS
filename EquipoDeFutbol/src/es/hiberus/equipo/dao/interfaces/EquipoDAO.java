@@ -1,8 +1,10 @@
 package es.hiberus.equipo.dao.interfaces;
 
 public interface EquipoDAO {
-	public void crear(Equipo e);
-	public void eliminar(Equipo e);
-	public void modificar(Equipo e);
+	
+	public boolean crear(Equipo e);
+	public boolean eliminar(Equipo e);
+	public boolean modificar(Equipo e);
+	public String read(String id);
 
 }
