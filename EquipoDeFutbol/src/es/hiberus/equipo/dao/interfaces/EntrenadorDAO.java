@@ -1,6 +1,12 @@
 package es.hiberus.equipo.dao.interfaces;
 
-public interface EntrenadorDAO {	
+import java.util.HashMap;
+
+import es.hiberus.equipo.model.*;
+
+public interface EntrenadorDAO  {	
+	
+	
 	
 	public boolean crear(Entrenador ent);
 	
@@ -9,3 +15,4 @@ public interface EntrenadorDAO {
 	public boolean modificar(Entrenador ent);
 	
 	public String read(String id);}
+

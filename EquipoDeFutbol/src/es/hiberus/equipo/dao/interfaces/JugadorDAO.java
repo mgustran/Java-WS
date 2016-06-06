@@ -1,5 +1,7 @@
 package es.hiberus.equipo.dao.interfaces;
 
+import es.hiberus.equipo.model.Jugador;
+
 public interface JugadorDAO {
 	
 	public boolean crear(Jugador j);
