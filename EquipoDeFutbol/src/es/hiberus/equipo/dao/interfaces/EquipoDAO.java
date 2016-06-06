@@ -1,6 +1,12 @@
 package es.hiberus.equipo.dao.interfaces;
 
+import java.util.HashMap;
+
+import es.hiberus.equipo.model.Equipo;
+
 public interface EquipoDAO {
+	
+	public HashMap listaPersonal = new HashMap();
 	
 	public boolean crear(Equipo e);
 	
