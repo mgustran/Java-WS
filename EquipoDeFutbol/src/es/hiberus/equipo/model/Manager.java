@@ -2,21 +2,21 @@ package es.hiberus.equipo.model;
 
 import java.util.HashMap;
 
-import es.hiberus.equipo.dao.*;
-import es.hiberus.equipo.dao.interfaces.ManagerDAO;
+import es.hiberus.equipo.dao.interfaces.*;
+
 
 public class Manager extends Persona implements ManagerDAO {
 	
 	DataBase db = new DataBase();
 
 	public boolean crear (Manager m) {
-		db.personas
+	
 		return false;
 	}
 
 	@Override
 	public boolean eliminar(Manager m) {
-		listaPersonal.remove(m);
+		
 		return false;
 	}
 

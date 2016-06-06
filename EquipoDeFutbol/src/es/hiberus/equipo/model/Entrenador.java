@@ -3,6 +3,7 @@ package es.hiberus.equipo.model;
 import java.util.HashMap;
 
 import es.hiberus.equipo.dao.*;
+import es.hiberus.equipo.dao.interfaces.EntrenadorDAO;
 
 public class Entrenador implements EntrenadorDAO {
 	

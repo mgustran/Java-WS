@@ -1,6 +1,6 @@
 package es.hiberus.equipo.model;
 
-import es.hiberus.equipo.dao.JugadorDAO;
+import es.hiberus.equipo.dao.interfaces.JugadorDAO;
 
 public class Jugador implements JugadorDAO{
 
