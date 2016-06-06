@@ -8,9 +8,9 @@ public class DataBase {
 
    private static DataBase INSTANCE;
 
-   private Map<String, IPersona> personas = new HashMap<>(20);
+   public Map<String, IPersona> personas = new HashMap<>(20);
 
-   protected DataBase() {
+   public DataBase() {
        // Exists only to defeat instantiation.
    }
 
@@ -21,7 +21,7 @@ public class DataBase {
        return INSTANCE;
    }
 
-   public Map<String, IPersona> getPersonas() {
+   public Map<String, I> getPersonas() {
        return personas;
    }
 

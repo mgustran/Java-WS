@@ -3,14 +3,14 @@ package es.hiberus.equipo.model;
 import java.util.HashMap;
 
 import es.hiberus.equipo.dao.*;
+import es.hiberus.equipo.dao.interfaces.ManagerDAO;
 
-public class Manager implements ManagerDAO{
+public class Manager extends Persona implements ManagerDAO {
 	
-	
+	DataBase db = new DataBase();
 
-	@Override
-	public boolean crear(Manager m) {
-		listaPersonal.put(nombre, m);
+	public boolean crear (Manager m) {
+		db.personas
 		return false;
 	}
 
@@ -22,7 +22,7 @@ public class Manager implements ManagerDAO{
 
 	@Override
 	public boolean modificar(Manager m) {
-		listaPersonal.replace(nombre, m);
+		listaPersonal.replace(getNombre(), m);
 		return false;
 	}
 
