@@ -1,6 +1,6 @@
 package es.hiberus.equipo.model;
 
-import es.hiberus.equipo.dao.interfaces.EquipoDAO;
+import es.hiberus.equipo.dao.EquipoDAO;
 
 public class Equipo implements EquipoDAO {
 

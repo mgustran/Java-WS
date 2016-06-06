@@ -1,7 +1,8 @@
 package es.hiberus.equipo.bl;
 
-
-
+import es.hiberus.equipo.model.Entrenador;
+import es.hiberus.equipo.model.Jugador;
+import es.hiberus.equipo.model.Manager;
 
 public interface EquipoFacade {
 	

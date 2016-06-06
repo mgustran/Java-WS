@@ -1,4 +1,4 @@
-package es.hiberus.equipo.dao.interfaces;
+package es.hiberus.equipo.controller;
 
 import java.util.HashMap;
 
