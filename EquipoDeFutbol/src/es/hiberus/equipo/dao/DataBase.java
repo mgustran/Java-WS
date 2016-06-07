@@ -21,7 +21,7 @@ public class DataBase {
        return INSTANCE;
    }
 
-   public Map<String, I> getPersonas() {
+   public Map<String, IPersona> getPersonas() {
        return personas;
    }
 
