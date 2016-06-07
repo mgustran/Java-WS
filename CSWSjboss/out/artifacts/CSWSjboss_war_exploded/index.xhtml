@@ -7,6 +7,17 @@
       xmlns:f="http://java.sun.com/jsf/core"
 >
 
+<head>
+
+    <title></title>
+    <style type="text/css" src="">
+        body {
+            background-color: #4cd964;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+</head>
+
 
 <h:body>
 
@@ -50,6 +61,8 @@
          <tr>
             <td></td>
             <td align="right"> <input  type="submit" value="Submit Parameters" class="button" onclick="changeImage()" /></td>
+             <td><br/></td>
+             <td></td>
 
          </tr>
 
@@ -60,36 +73,17 @@
 
       </table>
        <h:outputLabel id="result2" value="result should appear here: #{controller.outputSpeed}" style="font-weight : bold" />
-         <br/>
-        <h:commandButton id="submitButton" type="submit"
-                         value="Enviar Datos" action="#{controller.serviceInit}">
 
-            <f:param name="speed" value="#{controller.speed}" />
 
-        </h:commandButton>
-        <p>
-            <img alt="" src=""
-                 style="height: 85px; width: 198px" id="imgClickAndChange"   />
-        </p>
 
-        <div class="progress">
-            <div class="progress-bar">
-                <div class="progress-shadow"></div>
-            </div>
+
+        <div class="checked" >
+            <p>#{service.convertSpeed(controller.speed, controller.fromUn, controller.toUn)}</p>
         </div>
 
-        <script language="javascript">
-            function changeImage() {
 
-                if (document.getElementById("imgClickAndChange").src == "")
-                {
-                    document.getElementById("imgClickAndChange").src = "http://www.gifss.es/botones/check/08.gif";
-                }
-                else
-                {
+        <script>
 
-                }
-            }
         </script>
 
 
