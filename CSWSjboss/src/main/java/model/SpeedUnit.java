@@ -42,14 +42,7 @@ public enum SpeedUnit {
         return value;
     }
 
-    public static SpeedUnit fromValue(String v) {
-        for (SpeedUnit c : SpeedUnit.values()) {
-            if (c.value.equals(v)) {
-                return c;
-            }
-        }
-        throw new IllegalArgumentException(v);
-    }
+
 
 
 

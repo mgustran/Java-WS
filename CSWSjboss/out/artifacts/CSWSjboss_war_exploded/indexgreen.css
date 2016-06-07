@@ -4,7 +4,7 @@
 } 
 
 body {
-    background: url("http://netdna.webdesignerdepot.com/uploads/2013/02/featured20@wdd2x.jpg") no-repeat center;
+    background: url("http://wallpoper.com/images/00/40/37/18/speedometer-speed_00403718.jpg") no-repeat center;
 
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 11px;
@@ -123,7 +123,7 @@ form {
 
 
 .button {
-    width: 115px;
+    width: 120px;
     position: absolute;
 
     right: 20px;
@@ -183,7 +183,15 @@ padding: 10px 0;
 
 #footer {
 text-align: center;
-color: #eee;
+color: #008b12;
 font-size: 11px;
 padding: 0 0 10px 0;
+}
+
+#footerA {
+    color: #008b12;
+}
+
+#footerA:hover{
+    color: #0099CC;
 }

@@ -1,6 +1,5 @@
 package controller;
 
-import model.ServiceManager;
 import model.SpeedUnit;
 
 import javax.faces.bean.ManagedBean;
