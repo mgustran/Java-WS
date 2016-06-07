@@ -1,8 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tns="http://xmlns.jcp.org/xml/ns/javaee"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+>
 <head>
 <title>Speed Converter 2.0</title>
-<meta http-equiv="Content-Language" content="English" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="indexgreen.css" media="screen" />
 </head>
@@ -30,46 +35,76 @@
 
 <h2>Conversor</h2>
 <div class="articles">
-GreenSquareShadow Rounded is a CSS template that is free and fully standards compliant. <a href="http://www.free-css-templates.com/">Free CSS templates</a> designed this template.
-This template is allowed for all uses, including commercial use, as it is released under the <strong>Creative Commons Attributions 2.5</strong> license. The only stipulation to the use of this free template is that the links appearing in the footer remain intact. Beyond that, simply enjoy and have fun with it!	 
+    La conversión de unidades es la transformación del valor numérico de una magnitud física,
+    expresado en una cierta unidad de medida, en otro valor numérico equivalente y expresado
+    en otra unidad de medida de la misma naturaleza.
+    Esta versión del conversor se centra solo en la conversion sobre unidades de velocidad
+    tales como los metros por segundo, las millas por hora i varios estandares mas.
+
+    <br /><br />
+<div>
+
+
+
+    <h:form  id="miform">
+
+        <span>Velocidad: </span><h:inputText value="#{controller.speed}" class="frmInput"  size="50" name="speed"  />
+
+
+        <br/>
+
+
+            <span>Convertir: </span><h:selectOneMenu  class="frmText" value="#{controller.fromUn}">
+                    <f:selectItems  value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                </h:selectOneMenu>
+
+
+        <br/>
+
+
+                <span>Convertir a: </span><h:selectOneMenu  class="frmText" value="#{controller.toUn}">
+                    <f:selectItems value="#{SU.SUnitValues}" itemLabel="#{SU.SULabel}" itemValue="#{SU.SUValue}"/>
+                </h:selectOneMenu>
+
+
+        <br/>
+
+
+
+                 <input  type="submit" value="Submit Parameters" class="button"  />
+
+
+
+
+        <h:outputLabel id="result2" value="El resultado es :  "  >
+
+            <span><label>
+                #{service.convertSpeed(controller.speed, controller.fromUn, controller.toUn)}
+            </label></span>
+
+        </h:outputLabel>
+
+
+
+    </h:form>
+
+
+
+</div>
 <br /><br />
-<img src="indexgreen/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
-<br /><br />
-</div>
-<h2><a href="#">Title with a link - Example of heading 2</a></h2>
-<div class="articles">
-Donec nulla. Aenean eu augue ac nisl tincidunt rutrum. Proin erat justo, pharetra eget, posuere at, malesuada 
-et, nulla. Donec pretium nibh sed est faucibus suscipit. Nunc nisi. Nullam vehicula. In ipsum lorem, bibendum sed, 
-consectetuer et, gravida id, erat. Ut imperdiet, leo vel condimentum faucibus, risus justo feugiat purus, vitae 
-congue nulla diam non urna.
-</div>
 </div>
 
-<div class="right">
 
-<h2>Archives</h2>
-<ul>
-<li><a href="#">January 2007</a></li> 
-<li><a href="#">February 2007</a></li> 
-<li><a href="#">March 2007</a></li> 
-<li><a href="#">April 2007</a></li>
-<li><a href="#">May 2007</a></li> 
-<li><a href="#">June 2007</a></li> 
-<li><a href="#">July 2007</a></li> 
-<li><a href="#">August 2007</a></li> 
-<li><a href="#">September 2007</a></li>
-<li><a href="#">October 2007</a></li>
-<li><a href="#">November 2007</a></li>
-<li><a href="#">December 2007</a></li>
-</ul>
 
 </div>
+
+
 <div style="clear: both;"> </div>
 </div>
 
 <div id="bottom"> </div>
 <div id="footer">
-Diseñado por mgustran            -> <a href="https://github.com/mgustran/Java-WS">GitHub</a>
+Diseñado por mgustran            -> <a   href="https://github.com/mgustran/Java-WS" >GitHub</a>
 </div>
 </div>
 
