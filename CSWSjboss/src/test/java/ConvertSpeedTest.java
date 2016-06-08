@@ -1,6 +1,8 @@
 import controller.ConvertSpeedsSoap;
+import org.junit.Assert;
 import services.SpeedUnit;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -37,6 +39,7 @@ public class ConvertSpeedTest {
 
         //  Imprimimos la respuesta
         System.out.println("T1 -> Resultado de la conversion de '12.12' nudos  a  km/h : " + torna);
+        Assert.assertEquals(expected, torna, 0.01);
     }
 
 
@@ -45,10 +48,11 @@ public class ConvertSpeedTest {
 
         // Invocamos el WS
         Double torna = convertSpeedsSoap.convertSpeed(12.12, SpeedUnit.MACH, SpeedUnit.LEAGUES_PERDAY);
-        Double expected = 71926.604196;  // Result: 22.44624
+        Double expected = 71926.604;  // Result: 22.44624
 
         //  Imprimimos la respuesta
         System.out.println("T2 -> Resultado de la conversion de '12.12' mach's  a  leguas/dia : " + torna);
+        Assert.assertEquals(expected, torna, 0.01);
     }
 
     @Test
@@ -56,11 +60,13 @@ public class ConvertSpeedTest {
 
         // Invocamos el WS
         Double torna = convertSpeedsSoap.convertSpeed(12.12, SpeedUnit.METERS_PERSECOND, SpeedUnit.MILES_PERHOUR);
-        Double expected = 43.63199999999999;  // Result: 22.44624
+        Double expected = 27.1116;  // Result: 22.44624
 
         //  Imprimimos la respuesta
         System.out.println("T3 -> Resultado de la conversion de '12.12' m/s  a  miles/h : " + torna);
+        Assert.assertEquals(expected, torna, 0.01);
     }
+
 
 //       IMPLEMENTAR ASSERTS   A TODOS LOS CASOS TEST
 
