@@ -1,7 +1,5 @@
 
-package forSOAP;
-
-import model.ObjectFactory;
+package services.forSOAP;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -17,12 +15,12 @@ import javax.xml.bind.annotation.XmlSeeAlso;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "ConvertSpeedsHttpGet", targetNamespace = "http://www.webserviceX.NET/")
+@WebService(name = "ConvertSpeedsHttpPost", targetNamespace = "http://www.webserviceX.NET/")
 @SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.BARE)
 @XmlSeeAlso({
     ObjectFactory.class
 })
-public interface ConvertSpeedsHttpGet {
+public interface ConvertSpeedsHttpPost {
 
 
     /**

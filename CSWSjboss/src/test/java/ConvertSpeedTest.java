@@ -1,6 +1,5 @@
-import controller.Controller;
 import controller.ConvertSpeedsSoap;
-import model.SpeedUnit;
+import services.SpeedUnit;
 import org.junit.Test;
 
 import javax.xml.namespace.QName;

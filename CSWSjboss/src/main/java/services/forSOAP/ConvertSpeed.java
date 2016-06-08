@@ -1,7 +1,7 @@
 
-package forSOAP;
+package services.forSOAP;
 
-import model.SpeedUnit;
+import services.SpeedUnit;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

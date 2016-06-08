@@ -1,8 +1,8 @@
 
-package model;
+package services.forSOAP;
 
-import forSOAP.ConvertSpeed;
-import forSOAP.ConvertSpeedResponse;
+import services.forSOAP.ConvertSpeed;
+import services.forSOAP.ConvertSpeedResponse;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
@@ -19,7 +19,7 @@ import javax.xml.namespace.QName;
  * for XML content. The Java representation of XML 
  * content can consist of schema derived interfaces 
  * and classes representing the binding of schema 
- * type definitions, element declarations and model 
+ * type definitions, element declarations and services
  * groups.  Factory methods for each of these are 
  * provided in this class.
  * 

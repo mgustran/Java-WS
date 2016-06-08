@@ -1,4 +1,4 @@
-package model;
+package services;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;

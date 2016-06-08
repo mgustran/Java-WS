@@ -1,5 +1,5 @@
 
-package model;
+package services;
 
 import javax.faces.bean.ManagedBean;
 import javax.xml.bind.annotation.XmlEnum;

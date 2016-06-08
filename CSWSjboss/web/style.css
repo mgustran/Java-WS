@@ -19,6 +19,7 @@ a:hover { text-decoration: none; color : #000; }
 #wrap {
 margin: 40px auto 0 auto;
 width: 800px;
+    ;
 }
 
 #header { 
@@ -73,6 +74,7 @@ text-decoration: underline;
 
 #content {
 background: #555 url(images/content.jpg) repeat-y;
+
 padding: 10px 20px;
 }
 
@@ -144,6 +146,7 @@ form {
 .left {
 width: 700px;
 float: left;
+    color: #12c20c;
 text-align: justify;
 }
 .left h2 {
@@ -155,9 +158,9 @@ padding : 10px 0 15px 0;
 }
 
 .right {
-width: 250px;
+width: 225px;
 float: right;
-padding: 7px;
+padding: 0px;
 border-left: 1px solid #bbb;
 font-size: 11px;
     line-height: 20px;
@@ -173,6 +176,11 @@ color: #666;
 line-height: 30px;
 }
 .right a { text-decoration: none }
+
+#list{
+    font-size: 13px;
+    color: #009b13;
+}
 
 #top {
 background: #008b12 no-repeat;

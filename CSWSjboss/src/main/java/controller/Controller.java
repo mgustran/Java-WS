@@ -1,6 +1,6 @@
 package controller;
 
-import model.SpeedUnit;
+import services.SpeedUnit;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
