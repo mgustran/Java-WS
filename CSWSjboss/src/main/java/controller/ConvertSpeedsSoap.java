@@ -1,8 +1,8 @@
 
 package controller;
 
-import model.ObjectFactory;
-import model.SpeedUnit;
+
+import services.SpeedUnit;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -21,7 +21,7 @@ import javax.xml.ws.ResponseWrapper;
  */
 @WebService(name = "ConvertSpeedsSoap", targetNamespace = "http://www.webserviceX.NET/")
 @XmlSeeAlso({
-    ObjectFactory.class
+
 })
 public interface ConvertSpeedsSoap {
 
@@ -36,8 +36,8 @@ public interface ConvertSpeedsSoap {
      */
     @WebMethod(operationName = "ConvertSpeed", action = "http://www.webserviceX.NET/ConvertSpeed")
     @WebResult(name = "ConvertSpeedResult", targetNamespace = "http://www.webserviceX.NET/")
-    @RequestWrapper(localName = "ConvertSpeed", targetNamespace = "http://www.webserviceX.NET/", className = "sc.ConvertSpeed")
-    @ResponseWrapper(localName = "ConvertSpeedResponse", targetNamespace = "http://www.webserviceX.NET/", className = "sc.ConvertSpeedResponse")
+    @RequestWrapper(localName = "ConvertSpeed", targetNamespace = "http://www.webserviceX.NET/")
+    @ResponseWrapper(localName = "ConvertSpeedResponse", targetNamespace = "http://www.webserviceX.NET/")
     public double convertSpeed(
         @WebParam(name = "speed", targetNamespace = "http://www.webserviceX.NET/")
         double speed,

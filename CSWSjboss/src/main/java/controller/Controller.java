@@ -1,6 +1,6 @@
 package controller;
 
-import model.SpeedUnit;
+import services.SpeedUnit;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -36,6 +36,7 @@ public class Controller implements Serializable{
 
 
     public SpeedUnit getFromUn() {return fromUnitBean;    }
+
 
     public void setFromUn(SpeedUnit fromUnitBean) {
         this.fromUnitBean = fromUnitBean;
