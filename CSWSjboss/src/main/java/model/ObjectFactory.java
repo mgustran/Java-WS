@@ -1,8 +1,8 @@
 
 package model;
 
-import controller.ConvertSpeed;
-import controller.ConvertSpeedResponse;
+import forSOAP.ConvertSpeed;
+import forSOAP.ConvertSpeedResponse;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

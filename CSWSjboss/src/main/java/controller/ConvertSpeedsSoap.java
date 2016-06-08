@@ -36,8 +36,8 @@ public interface ConvertSpeedsSoap {
      */
     @WebMethod(operationName = "ConvertSpeed", action = "http://www.webserviceX.NET/ConvertSpeed")
     @WebResult(name = "ConvertSpeedResult", targetNamespace = "http://www.webserviceX.NET/")
-    @RequestWrapper(localName = "ConvertSpeed", targetNamespace = "http://www.webserviceX.NET/", className = "sc.ConvertSpeed")
-    @ResponseWrapper(localName = "ConvertSpeedResponse", targetNamespace = "http://www.webserviceX.NET/", className = "sc.ConvertSpeedResponse")
+    @RequestWrapper(localName = "ConvertSpeed", targetNamespace = "http://www.webserviceX.NET/")
+    @ResponseWrapper(localName = "ConvertSpeedResponse", targetNamespace = "http://www.webserviceX.NET/")
     public double convertSpeed(
         @WebParam(name = "speed", targetNamespace = "http://www.webserviceX.NET/")
         double speed,

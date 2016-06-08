@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/controller/Controller.java" line="40" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/controller/Controller.java" line="41" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d583e50-c03d-4fda-9b3b-3d8557c3ebba" name="Default" comment="" />
@@ -27,44 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="indexgreen.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/indexgreen.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+            <state relative-caret-position="392">
+              <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexgreen.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/indexgreen.xhtml">
+      <file leaf-file-name="indexConverter.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/indexConverter.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="1300">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConvertSpeed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertSpeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1594#1595#0" expanded="false" />
-                <element signature="e#1628#1629#0" expanded="false" />
-                <element signature="e#1827#1828#0" expanded="false" />
-                <element signature="e#1858#1859#0" expanded="false" />
-                <element signature="e#2070#2071#0" expanded="false" />
-                <element signature="e#2107#2108#0" expanded="false" />
-                <element signature="e#2302#2303#0" expanded="false" />
-                <element signature="e#2331#2332#0" expanded="false" />
-                <element signature="e#2539#2540#0" expanded="false" />
-                <element signature="e#2574#2575#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -72,15 +50,29 @@
       <file leaf-file-name="SpeedUnit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/SpeedUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1046#1047#0" expanded="false" />
-                <element signature="e#1071#1072#0" expanded="false" />
-                <element signature="e#1100#1101#0" expanded="false" />
-                <element signature="e#1128#1129#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/ObjectFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSpeeds.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/ConvertSpeeds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,8 +80,38 @@
       <file leaf-file-name="SpeedUnits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/SpeedUnits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSpeedsSoap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertSpeedsSoap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSpeedTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ConvertSpeedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertServiceCall.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertServiceCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -98,18 +120,13 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="-159">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#508#509#0" expanded="false" />
-                <element signature="e#536#537#0" expanded="false" />
-                <element signature="e#578#579#0" expanded="false" />
-                <element signature="e#612#613#0" expanded="false" />
-                <element signature="e#728#729#0" expanded="false" />
-                <element signature="e#775#776#0" expanded="false" />
-                <element signature="e#881#882#0" expanded="false" />
-                <element signature="e#925#926#0" expanded="false" />
+                <element signature="method#getFromUn#0;class#Controller#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="method#getToUn#0;class#Controller#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/main/java/sc/ConvertSpeedTest.java" />
         <option value="$PROJECT_DIR$/web/view.xhtml" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConvertSpeedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ServiceManager.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/su.java" />
@@ -151,22 +167,27 @@
         <option value="$PROJECT_DIR$/src/main/java/model/ServiceManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ToUnitBean.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/SpeedBean.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ServiceConvertCall.java" />
         <option value="$PROJECT_DIR$/web/shit.xhtml" />
         <option value="$PROJECT_DIR$/web/result.xhtml" />
         <option value="$PROJECT_DIR$/web/barraJS.js" />
         <option value="$PROJECT_DIR$/web/default.xhtml" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/web/estilos.css" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/mAAIN.java" />
-        <option value="$PROJECT_DIR$/web/indexgreen.css" />
         <option value="$PROJECT_DIR$/src/main/java/model/SpeedUnit.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SpeedUnits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/FromUnitBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SpeedBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/forSOAP/ConvertSpeedsHttpPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ServiceConvertCall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/mAAIN.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ConvertSpeedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ConvertSpeedsSoap.java" />
         <option value="$PROJECT_DIR$/web/indexgreen.xhtml" />
+        <option value="$PROJECT_DIR$/web/indexgreen.css" />
+        <option value="$PROJECT_DIR$/web/style.css" />
+        <option value="$PROJECT_DIR$/web/indexConverter.xhtml" />
       </list>
     </option>
   </component>
@@ -286,7 +307,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="indexgreen" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSWSjboss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSWSjboss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,10 +364,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,67 +375,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSWSjboss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSWSjboss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSWSjboss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSWSjboss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,7 +393,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSWSjboss2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20454545" />
@@ -442,11 +421,11 @@
       <recent name="C:\Users\mgustran\workspace\CSWSjboss\src\main\java\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.default.xhtml">
+  <component name="RunManager" selected="Application.TestRunner">
     <configuration default="false" name="mAAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="forSOAP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,80 +444,6 @@
     </configuration>
     <configuration default="false" name="index.xhtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/CSWSjboss_war_exploded/index.xhtml">
       <method />
-    </configuration>
-    <configuration default="false" name="index.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.69" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/CSWSjboss_war_exploded/index.xhtml" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="CSWS2">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_xhtml_CSWSjboss" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55169" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="CSWSjboss:war exploded" />
-          <artifact name="CSWS2" />
-        </option>
-      </method>
     </configuration>
     <configuration default="false" name="default.xhtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/CSWSjboss_war_exploded/default.xhtml">
       <method />
@@ -581,6 +486,21 @@
           <artifact name="CSWS2" />
         </option>
       </method>
+    </configuration>
+    <configuration default="false" name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CSWSjboss" />
+      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
@@ -683,6 +603,58 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -875,6 +847,62 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -889,6 +917,12 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.69" ALTERNATIVE_JRE_ENABLED="false">
@@ -965,7 +999,7 @@
       </method>
     </configuration>
     <configuration default="false" name="JBoss 7.2.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.2.0.Final-redhat-8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/CSWSjboss_war_exploded/indexgreen.xhtml" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/CSWSjboss_war_exploded/indexConverter.xhtml" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="CSWSjboss:war exploded">
@@ -1038,20 +1072,20 @@
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2.0.Final" />
-      <item index="2" class="java.lang.String" itemvalue="Application.mAAIN" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.xhtml" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.xhtml" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.default.xhtml" />
-      <item index="6" class="java.lang.String" itemvalue="Tomcat Server.default.xhtml" />
+      <item index="1" class="java.lang.String" itemvalue="Application.mAAIN" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.xhtml" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.default.xhtml" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.default.xhtml" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TestRunner" />
+      <item index="6" class="java.lang.String" itemvalue="JBoss Server.JBoss 7.2.0.Final" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.default.xhtml" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.default.xhtml" />
-        <item index="2" class="java.lang.String" itemvalue="Application.mAAIN" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.xhtml" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.xhtml" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestRunner" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.default.xhtml" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.default.xhtml" />
+        <item index="3" class="java.lang.String" itemvalue="Application.mAAIN" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.xhtml" />
       </list>
     </recent_temporary>
   </component>
@@ -1101,7 +1135,7 @@
       <workItem from="1464950369259" duration="1241000" />
       <workItem from="1465284420559" duration="12573000" />
       <workItem from="1465321805698" duration="15316000" />
-      <workItem from="1465369920921" duration="874000" />
+      <workItem from="1465369920921" duration="9174000" />
     </task>
     <servers />
   </component>
@@ -1138,7 +1172,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159397000" />
+    <option name="totallyTimeSpent" value="167697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1150,12 +1184,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3418708" sideWeight="0.53304905" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3418708" sideWeight="0.46695095" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.344098" sideWeight="0.32569295" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3418708" sideWeight="0.46268657" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25373134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1173,7 +1207,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.344098" sideWeight="0.6823028" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.344098" sideWeight="0.67430705" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1257,55 +1291,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/facelets/compiler/UIInstructions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/facelets/compiler/UILeaf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/application/view/FaceletViewHandlingStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="204" column="83" selection-start-line="204" selection-start-column="83" selection-end-line="204" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/application/view/MultiViewHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="62" column="99" selection-start-line="62" selection-start-column="99" selection-end-line="62" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/lifecycle/RenderResponsePhase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/lifecycle/Phase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="94" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar!/com/sun/faces/lifecycle/LifecycleImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="113" column="65" selection-start-line="113" selection-start-column="65" selection-end-line="113" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.2.9/jsf-api-2.2.9.jar!/javax/faces/webapp/FacesServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1340,13 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ConvertSpeedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1419,18 +1397,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SpeedBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
@@ -1473,7 +1444,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/indexgreen/content.jpg">
+    <entry file="file://$PROJECT_DIR$/web/images/content.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1496,101 +1467,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/indexgreen/bottom.jpg">
+    <entry file="file://$PROJECT_DIR$/web/images/bottom.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/mAAIN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ServiceConvertCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/FromUnitBean.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ServiceManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ServiceManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SpeedBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forSOAP/ConvertSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#775#776#0" expanded="false" />
-            <element signature="e#881#882#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertSpeed.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forSOAP/ConvertSpeedResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1594#1595#0" expanded="false" />
-            <element signature="e#1628#1629#0" expanded="false" />
-            <element signature="e#1827#1828#0" expanded="false" />
-            <element signature="e#1858#1859#0" expanded="false" />
-            <element signature="e#2070#2071#0" expanded="false" />
-            <element signature="e#2107#2108#0" expanded="false" />
-            <element signature="e#2302#2303#0" expanded="false" />
-            <element signature="e#2331#2332#0" expanded="false" />
-            <element signature="e#2539#2540#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/SpeedUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/forSOAP/ConvertSpeedsHttpGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/forSOAP/ConvertSpeedsHttpPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConvertSpeedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/mAAIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ConvertSpeeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/SpeedUnits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/indexgreen.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertSpeedsSoap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+        <state relative-caret-position="700">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/indexgreen.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/SpeedUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="361">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="131" column="21" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/indexConverter.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="method#getFromUn#0;class#Controller#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="method#getToUn#0;class#Controller#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ConvertServiceCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           <folding />
         </state>
       </provider>

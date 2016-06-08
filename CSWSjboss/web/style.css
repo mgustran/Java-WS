@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background: url("http://wallpoper.com/images/00/40/37/18/speedometer-speed_00403718.jpg") no-repeat center;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #333333;;
+}
+
+img { border: none; }
+a { color: #0f009b;  }
+a:hover { text-decoration: none; color : #000; }
+
+#wrap {
+margin: 40px auto 0 auto;
+width: 800px;
+}
+
+#header { 
+padding-bottom:10px;
+}
+#header h1 {
+font-size: 26px;
+font-weight: 100;
+letter-spacing: -3px;
+padding: 12px 0 5px 10px;
+}
+#header h1 a {
+color: #ff0004;
+text-decoration: none;
+}
+#header h1 a:hover {
+color: #fff;
+text-decoration: none;
+}
+#header h2 {
+color: #ccc;
+font-size: 15px;
+font-weight: 100;
+padding: 0 0 0 11px;
+letter-spacing: -1px;
+line-height: 12px;
+}
+
+#menu {
+height: 30px;
+line-height: 30px;
+background: #2B9B0B  no-repeat;
+}
+#menu ul {
+padding-left: 10px;
+list-style-type: none;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+color: #eee;
+padding: 0 10px;
+text-decoration: none;
+font-weight: 600;
+}
+#menu ul li a:hover {
+color: #fff;
+text-decoration: underline;
+}
+
+#content {
+background: #555 url(images/content.jpg) repeat-y;
+padding: 10px 20px;
+}
+
+
+
+.frmInput {
+    width: 100px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.frmText{
+    width: 250px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+form {
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    width: 700px;
+    height: 250px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #1400cc;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.button {
+    width: 120px;
+
+    align: left;
+    margin-right: 50px;
+    right: 400px;
+    bottom: 20px;
+    background: #09C;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+.left {
+width: 700px;
+float: left;
+text-align: justify;
+}
+.left h2 {
+color: #ff0005;
+font-size: 24px;
+letter-spacing: -3px;
+font-weight: 100;
+padding : 10px 0 15px 0;
+}
+
+.right {
+width: 250px;
+float: right;
+padding: 7px;
+border-left: 1px solid #bbb;
+font-size: 11px;
+    line-height: 20px;
+}
+.right ul {
+list-style-type: none;
+padding: 5px 10px 10px 10px;
+}
+.right h2 {
+height: 30px;
+font-size: 12px;
+color: #666;
+line-height: 30px;
+}
+.right a { text-decoration: none }
+
+#top {
+background: #008b12 no-repeat;
+padding: 5px 0;
+}
+#bottom {
+background: #555 url(images/bottom.jpg) no-repeat;
+padding: 10px 0;
+}
+
+#footer {
+text-align: center;
+color: #008b12;
+font-size: 11px;
+padding: 0 0 10px 0;
+}
+
+#footerA {
+    color: #008b12;
+}
+
+#footerA:hover{
+    color: #0099CC;
+}

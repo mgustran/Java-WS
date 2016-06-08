@@ -1,8 +1,8 @@
 
 package model;
 
-import controller.ConvertSpeedsHttpGet;
-import controller.ConvertSpeedsHttpPost;
+import forSOAP.ConvertSpeedsHttpGet;
+import forSOAP.ConvertSpeedsHttpPost;
 import controller.ConvertSpeedsSoap;
 
 import java.net.MalformedURLException;

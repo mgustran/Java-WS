@@ -37,7 +37,7 @@ public class ConvertSpeedTest {
         Double expected = 22.444;  // Result: 22.44624
 
         //  Imprimimos la respuesta
-        System.out.println("T1 -> Resultado de la conversion de nudos  a  km/h : " + torna);
+        System.out.println("T1 -> Resultado de la conversion de '12.12' nudos  a  km/h : " + torna);
     }
 
 
@@ -49,7 +49,7 @@ public class ConvertSpeedTest {
         Double expected = 71926.604196;  // Result: 22.44624
 
         //  Imprimimos la respuesta
-        System.out.println("T2 -> Resultado de la conversion de mach's  a  leguas/dia : " + torna);
+        System.out.println("T2 -> Resultado de la conversion de '12.12' mach's  a  leguas/dia : " + torna);
     }
 
     @Test
@@ -60,7 +60,7 @@ public class ConvertSpeedTest {
         Double expected = 43.63199999999999;  // Result: 22.44624
 
         //  Imprimimos la respuesta
-        System.out.println("T3 -> Resultado de la conversion de m/s  a  miles/h : " + torna);
+        System.out.println("T3 -> Resultado de la conversion de '12.12' m/s  a  miles/h : " + torna);
     }
 
 //       IMPLEMENTAR ASSERTS   A TODOS LOS CASOS TEST

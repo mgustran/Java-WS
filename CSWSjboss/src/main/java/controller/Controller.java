@@ -37,6 +37,7 @@ public class Controller implements Serializable{
 
     public SpeedUnit getFromUn() {return fromUnitBean;    }
 
+
     public void setFromUn(SpeedUnit fromUnitBean) {
         this.fromUnitBean = fromUnitBean;
    }
