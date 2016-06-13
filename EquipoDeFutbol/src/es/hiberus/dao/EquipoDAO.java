@@ -7,7 +7,7 @@ import es.hiberus.equipo.model.Equipo;
 public class EquipoDAO implements IEquipoDAO{
 
 	@Override
-	public Boolean create(Equipo t) {
+	public  boolean create(Equipo t) {
 		Database.getInstance().put(t.getNombre(), t);
 		return null;
 	}
