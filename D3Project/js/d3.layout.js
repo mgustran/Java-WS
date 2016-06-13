@@ -4,7 +4,7 @@
 
 (function(){d3.layout = {};
 // Implements hierarchical edge bundling using Holten's algorithm. For each
-// input link, a path is computed that travels through the tree, up the parent
+// input link, a path is computed that travels through the arbol, up the parent
 // hierarchy to the least common ancestor, and then back down to the destination
 // node. Each path is simply an array of nodes.
     d3.layout.bundle = function() {
@@ -1443,7 +1443,7 @@
         var children = node.children, n;
         return children && (n = children.length) ? d3_layout_clusterRight(children[n - 1]) : node;
     }
-// Node-link tree diagram using the Reingold-Tilford "tidy" algorithm
+// Node-link arbol diagram using the Reingold-Tilford "tidy" algorithm
     d3.layout.tree = function() {
         var hierarchy = d3.layout.hierarchy().sort(null).value(null),
             separation = d3_layout_treeSeparation,
